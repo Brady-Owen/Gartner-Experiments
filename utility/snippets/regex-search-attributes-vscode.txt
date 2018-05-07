@@ -1,0 +1,38 @@
+Find all ids in the document:
+id="\S*"
+
+Remove all react IDs in HTML object:
+data-reactid="\S*"
+
+Get everything between quotes:
+(["'])(?:(?=(\\?))\2.)*?\1
+
+url that contains canada under Audience/custom javascript
+/CreativeID=Canada/i.test(location.search);
+
+Only partner Communities used on Exp77 using datalayer:
+!!/^(American House|Americare|Atria|Bel Aire Senior Living|Bella Vista Assisted Living Home|Benchmark Assisted Living|Harbor Retirement Associates LLC|JEA Senior Living|Jewish Home For the Aged|Kisco|Koelsch Senior Communities|MBK Senior Living|Merrill Gardens|Morningstar Senior Living|MORNINGSTAR SENIOR LIVING INC|Radiant Senior Living Inc|Ridgeline Management Company|Saber Health Group|Silverado Senior Living|Spectrum Retirement)$/i.test((window.datalayer || {}).organization);
+
+Bing Param = gpm
+www\.senioradvisor\.com/local/.*[?&]bing=gpm
+
+contains “/service-locator”
+/^\/service-locator(.*)/
+
+Service-locator only two file directories after
+www\.senioradvisor\.com/service-locator/[^/]+/[^/]+/?([?#].*)?$
+
+US State in URL
+www\.ourparents\.com/(alabama|alaska|arizona|arkansas|california|colorado|connecticut|delaware|florida|georgia|hawaii|idaho|illinois|indiana|iowa|kansas|kentucky|louisiana|maine|maryland|massachusetts|michigan|minnesota|mississippi|missouri|montana|nebraska|nebraska|new_hampshire|new_jersey|new_mexico|new_york|north_carolina|north_dakota|ohio|oklahoma|oregon|pennsylvania|rhode_island|south_carolina|south_dakota|tennessee|texas|utah|vermont|virginia|washington|west_virginia|wisconsin|wyoming)/[^/]+/[^/]+/?([?#].*)?$
+
+Alz city industry
+http://www.alzheimers.net/resources/STATE-REGEX/ANYTHING/
+http://www.alzheimers.net/resources/(alabama|alaska|arizona|arkansas|california|colorado|connecticut|delaware|florida|georgia|hawaii|idaho|illinois|indiana|iowa|kansas|kentucky|louisiana|maine|maryland|massachusetts|michigan|minnesota|mississippi|missouri|montana|nebraska|nebraska|new_hampshire|new_jersey|new_mexico|new_york|north_carolina|north_dakota|ohio|oklahoma|oregon|pennsylvania|rhode_island|south_carolina|south_dakota|tennessee|texas|utah|vermont|virginia|washington|west_virginia|wisconsin|wyoming)/[^/]+/?([?#].*)?$
+
+
+Alz Community
+http://www.alzheimers.net/resources/STATE-REGEX/ANYTHING/ANYTHING/
+http://www.alzheimers.net/resources/(alabama|alaska|arizona|arkansas|california|colorado|connecticut|delaware|florida|georgia|hawaii|idaho|illinois|indiana|iowa|kansas|kentucky|louisiana|maine|maryland|massachusetts|michigan|minnesota|mississippi|missouri|montana|nebraska|nebraska|new_hampshire|new_jersey|new_mexico|new_york|north_carolina|north_dakota|ohio|oklahoma|oregon|pennsylvania|rhode_island|south_carolina|south_dakota|tennessee|texas|utah|vermont|virginia|washington|west_virginia|wisconsin|wyoming)/[^/]+/[^/]+/?([?#].*)?$
+
+Anything but homepage
+http://www.alzheimers.net/[^/]+/?([?#].*)?$

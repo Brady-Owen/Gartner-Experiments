@@ -5,7 +5,7 @@ isEditor = true;
 /* _optimizely_evaluate=end_editor_only */
 if (!isEditor) {
   
-    if (location.pathname.indexOf('/solutions-call') === -1) {
+		if (location.pathname.indexOf('/solutions-call') === -1) {
     var _optly = {
       redir: document.createElement("a")
     };  
@@ -34,5 +34,5 @@ if (!isEditor) {
 
 window.PAGE_LAYOUT_VARIATION = 'exp5v1';
 setTimeout(function(){
-  window.PAGE_LAYOUT_VARIATION = 'exp5v1';
+	window.PAGE_LAYOUT_VARIATION = 'exp5v1';
 },2000);

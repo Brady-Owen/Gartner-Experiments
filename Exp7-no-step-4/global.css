@@ -1,0 +1,135 @@
+.exp6 .progress-dots.large-12.large-centered,
+.exp6 .progress-dots,
+.exp6 .no-wrap.back_button.trackable.button-data-layer-push,
+.exp6 label.placeholder,
+.exp6 #step-5 .hide-for-small small,
+.exp6 #step-5 .show-for-small small.small--tiny,
+.exp6 #step-5 p.scale.text-center,
+.exp6 #reviewed_module,
+.exp6 .callouts-row-2 img,
+.exp6 #step-5 .large-12.text-center > img {
+	display: none !important;
+}
+.exp6 input:focus {border: 1px solid #ff851f;}
+/*
+.exp6 .white.small-only-text-center small a {
+	    background-color: #ff851f;
+    border-color: #e56800;
+    color: #fff;
+    border-radius: 3px;
+    padding: 6px 21px;
+    font-weight: bold;
+}*/
+
+.exp6 .blue--light.underline.button-data-layer-push {
+	margin-left: 20px;
+  color: #1f89c7;
+  font-weight: bold;
+} 
+.exp6 .yellow { color: #fff !important;}
+.exp6 .category__filter__header {
+    margin: -1.25em -1.25em 0 !important;
+}
+.exp6 .button-field,
+.exp6 .row.features-wrapper {
+  margin-top:15px;
+}
+.exp6 .button-field .button.size_option {
+	width: 30% !important;
+}
+.exp6 .prog-indicator {
+	    width: 100%;
+    background-color: #ccc;
+    height: 20px;
+}
+.exp6 .prog-color {
+	    width: 20%;
+  color:#92acc5 !important;
+    background-color: #2a445d !important;
+    height: 100%;
+    display: block;
+    float: left;
+  padding: 4px;
+    font-size: 12px;
+}
+.exp6 .form-label {
+	margin-bottom: 0;
+  margin-top: 12px;
+  font-size: 13px;
+  color: #666;
+  text-align: left;
+}
+.exp6 .one {  width: 20%; }
+.exp6 .two {  width: 40%; }
+.exp6 .three {  width: 60%; }
+.exp6 .four {  width: 80%; }
+.exp6 .row-border--left {
+    border-top: 1px solid #ddd !important;
+  border-left: none !important;
+    padding-top: 30px;
+}
+.exp6 .button.submit_button:hover {
+	-webkit-transform: scaleX(1.02) scaleY(1.02);
+    transform: scaleX(1.02) scaleY(1.02);
+}
+.exp6 .wraptocenter img {
+    height: auto;
+    max-width: 100% !important;
+}
+.exp6 .price-center_logo-garden ul li {
+    text-align: center;
+    width: 12%;
+    float: left;
+    clear: none !important;
+}
+.exp6 .card {
+	    width: 100%;
+    display: block;
+    position: relative;
+    box-sizing: content-box;
+    height: auto;
+      float: left;
+    margin-bottom: 5px;
+  -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.2);/*FF 3.5+*/
+-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.2);/*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+box-shadow: 0 1px 2px rgba(0,0,0,0.2);/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+}
+.exp6 .card span {
+	    width: 13%;
+    box-sizing: content-box;
+    float: left;
+    position: relative;
+  padding-top: 19px;
+    color: #344e67;
+  text-align: center;
+}
+.exp6 .card .logo {
+	    width: 17%;
+    box-sizing: content-box;
+    float: left;
+    position: relative;
+      filter: blur(3px);
+  -webkit-filter: blur(3px);
+  vertical-align: middle;
+    height: 50px;
+    z-index: 999;
+}
+.exp6 .card .logo img {    
+      max-height: 50px;
+    vertical-align: middle;
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto 0;
+  z-index:99;
+}
+.exp6 .card .details {
+	    width: 70%;
+    box-sizing: content-box;
+    float: left;
+    position: relative;
+}
+.exp6 .card .details img {margin-left: -15px;}

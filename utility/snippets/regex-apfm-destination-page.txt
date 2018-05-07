@@ -1,0 +1,1 @@
+http://www\.aplaceformom\.com/(adult-day-services|alzheimers-care|assisted-living|care-homes|catholic-senior-living|christian-senior-living|independent-living|jewish-senior-living|nursing-homes|pet-friendly-senior-living|respite-care|senior-apartments|senior-living|home-care)/[^/]+/[^/\n]+
