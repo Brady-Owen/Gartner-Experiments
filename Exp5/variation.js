@@ -38,5 +38,5 @@ $("#next_step_4, #skip_step_4").click(function() {
 
 
 window.PAGE_LAYOUT_VARIATION = 'exp1v1';   
-console.log('window');
+console.log('windows');
 
